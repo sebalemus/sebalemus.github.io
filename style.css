@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('datascience.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el encabezado */
+  background-position: center; /* Centra la imagen en el encabezado */
+  color: white; 
+  text-shadow: 2px 2px 0px black; /* Agrega un borde negro al texto */
+}
+
+/* header h1 {
+  margin: 10px 0;
+} */
+header h1 {
+  font-size: 36px; /* Ajusta el tamaño según tus preferencias */
+}
+
+header h2 {
+  font-size: 36px; /* Ajusta el tamaño según tus preferencias */
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+}
+
+.project {
+  margin: 15px 0;
+}
+
+.project a {
+  color: #34495e;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #34495e;
+  color: white;
+}
+
+a {
+  color: #50b3a2;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      padding: 30px 20px; /* Ajustar según tus preferencias */
+  }
+  header h1, header p {
+      font-size: 24px; /* Ajustar según tus preferencias */
+  }
+  /* Otros ajustes según sea necesario */
+}
