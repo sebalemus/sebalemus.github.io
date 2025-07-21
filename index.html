@@ -2,73 +2,154 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="style.css">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portafolio de Data Science</title>
+    <title>Sebastián Lemus | Ingeniero Eléctrico</title>
 </head>
 <body>
+
     <header>
         <h1>Sebastián Lemus</h1>
-        <h2>Data Scientist/electrical engineer</h2>
+        <h2>Ingeniero Eléctrico | Data Analyst | Soporte Técnico Industrial</h2>
     </header>
+
     <section id="about-me">
         <h2>Sobre mí</h2>
-        <p>Ingeniero en Electricidad con sólida experiencia en soporte técnico de equipos de rayos X para seguridad aeroportuaria e industria alimentaria, así como en análisis de calidad de energía eléctrica en instalaciones industriales. He liderado la recuperación de equipos considerados inoperables por el fabricante y cuento con capacitación especializada en EE.UU.
-
-        Mi perfil técnico incluye diseño y programación de circuitos eléctricos industriales con PLCs, relés de seguridad (Pilz PNOZ, Safe Relay), microcontroladores y análisis de datos con herramientas como Python, SQL, R Studio, entre otras. Esta combinación me permite abordar desafíos desde una perspectiva integral: técnica, analítica y operativa.
-
-        También imparto clases particulares sobre sistemas trifásicos en régimen sinusoidal, y busco constantemente oportunidades para aprender, compartir conocimientos y generar impacto positivo en los equipos y proyectos en los que participo.</p>
+        <p>Soy Ingeniero en Electricidad con experiencia en soporte técnico avanzado de equipos de rayos X, análisis de calidad de energía, programacion y diseño de sistemas eléctricos industriales. He liderado proyectos de recuperación de equipos críticos, análisis de redes eléctricas y optimización de procesos mediante herramientas de programación y automatización.</p>
+        <p>Mis conocimientos abarcan soporte técnico de equipos industriales, programación de PLCs y microcontroladores con MicroPython, análisis de datos con Python, SQL, R Studio, y manufactura aditiva (impresión 3D).</p>
     </section>
+
+    <div class="services-technologies">
+        <section id="services">
+            <h2>Servicios Profesionales</h2>
+            <ul>
+                <li>Soporte técnico especializado en equipos de rayos X</li>
+                <li>Análisis de calidad de energía eléctrica (Fluke)</li>
+                <li>Programación y diseño de sistemas eléctricos con PLC, safe relay y microcontroladores</li>
+                <li>Modelado y manufactura aditiva (Impresión 3D)</li>
+                <li>Consultoría técnica para mantenimiento industrial</li>
+            </ul>
+        </section>
+
+        <section id="technologies">
+            <h2>Tecnologías y Herramientas</h2>
+            <ul>
+                <li>Python</li>
+                <li>Micro Python</li>
+                <li>R Studio</li>
+                <li>SQL (PostgreSQL y MySQL)</li>
+                <li>Fluke</li>
+                <li>IoT: Raspberry Pi Pico y ESP32</li>
+                <li>Manufactura aditiva (3D Printing)</li>
+                <li>PLCs (Ladder Logic)</li>
+            </ul>
+        </section>
+    </div>
+
+
     <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-        <h3>"Datos: Predicción de la producción de energía solar en chile para los proximos 4 años"</h3>
-        <p>Datos se recopilaron del sitio web de la Agencia Internacional de Energía (AIE). este estudio nos muestra a travez de series de tiempo como la producción de la energía solar se desarrollara en los siguientes cuatro años segun el modelo SARIMA para los proximos 4 años </p>
-        <img src="prediccion.jpg" alt="Imagen del proyecto 1">
-        <a href="https://gist.github.com/sebalemus/8785b8126a0db4cded05bd35e8ef58ff">Ver proyecto en GitHub</a>
-        </div>
-        <div class="project">
-        <h3>Exploración y Clustering de Características Globales</h3>
-        <p>Utilizando técnicas como el análisis de componentes principales (PCA) y el método K-means, se identificaron patrones y tendencias subyacentes en los datos. Los resultados del proyecto revelan cuatro clusters distintos, cada uno representando un grupo de países con similitudes significativas en indicadores clave. Entre las características más destacadas se encuentran las emisiones de CO2, el PIB, la tasa de participación laboral y los niveles de educación.</p>
-        <img src="clusterP1.jpg" alt="Imagen del proyecto 1">
-        <a href="https://gist.github.com/sebalemus/7857ada466581575d9201776948b903a">Ver Proyecto en GitHub</a>
-        </div>
-        <div class="project">
-        <h3>Segmentación de clinetes por clusterizacion</h3>
-        <p>Utilizando técnicas como el análisis de componentes principales (PCA) y el método K-means, se identificaron patrones y tendencias subyacentes en los datos. Los resultados del proyecto revelan cuatro clusters distintos, cada uno representando un grupo de países con similitudes significativas en indicadores clave. Entre las características más destacadas se encuentran las emisiones de CO2, el PIB, la tasa de participación laboral y los niveles de educación.</p>
-        <img src="proyecto1_cluster.jpg" alt="Imagen del proyecto 1">
-        <a href="https://gist.github.com/sebalemus/7857ada466581575d9201776948b903a">Ver Proyecto en GitHub</a>
-        </div>
-    <!-- Repite este bloque para cada proyecto adicional -->
-</section>
+        <h2>Proyectos Destacados</h2>
 
+        <div class="project">
+            <div class="project-content">
+                <h3>Análisis de Calidad de Energía Eléctrica para Equipos Industriales</h3>
+                <p>Estudio técnico realizado para diagnosticar la red eléctrica de una planta industrial mediante el equipo Fluke 435 II.  
+                Se analizaron parámetros críticos como distorsión armónica (THD), corriente de neutro, sobrecorrientes, factor de potencia y potencia de armónicos.
+                El proyecto permitió identificar riesgos asociados a equipos electrónicos sensibles (PLCs, VFDs, UPS), principalmente por armónicos elevados (>3000 VA) y factor de potencia bajo (0.7).</p>
+            </div>
+
+            <div class="project-image">
+                <img src="armonicos.jpg" alt="Análisis de armónicos y distorsión armónica">
+            </div>
+        </div>
+
+        
+        <div class="project">
+            <div class="project-content">
+                <h3>Estudio de la Influencia de la Calidad de Energía en Fallas de UPS y Equipos electronicos</h3>
+                <p>Estudio técnico orientado a diagnosticar y corregir fallas en equipos críticos, producto de una red eléctrica deficiente. Se realizó un análisis exhaustivo de distorsión armónica, factor de potencia y corrientes de neutro mediante mediciones con Fluke 435 II y procesamiento de datos con Python.                  El proyecto identificó eventos críticos como armónicos elevados y bajo factor de potencia, proponiendo soluciones para mejorar la confiabilidad de UPS y demas equipos electronicos.</p>
+            </div>
+            <div class="project-image">
+                <img src="ups.jpg" alt="Estudio de calidad de energía en UPS y equipos de rayos X">
+            </div>
+        </div>
+
+
+
+
+        
+        <div class="project">
+            <h3>Predicción de Energía Solar en Chile</h3>
+            <p>Estudio de series temporales usando SARIMA para proyectar la producción de energía solar en Chile durante los próximos 4 años.</p>
+            <img src="prediccion.jpg" alt="Predicción energía solar">
+            <a href="https://gist.github.com/sebalemus/8785b8126a0db4cded05bd35e8ef58ff" target="_blank">Ver proyecto en GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Clustering de Indicadores Globales</h3>
+            <p>Análisis con PCA y K-Means para identificar agrupaciones de países según PIB, CO₂, educación y participación laboral.</p>
+            <img src="clusterP1.jpg" alt="Cluster análisis">
+            <a href="https://gist.github.com/sebalemus/7857ada466581575d9201776948b903a" target="_blank">Ver Proyecto en GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Segmentación de Clientes por Clustering</h3>
+            <p>Segmentación de clientes basada en clustering para identificar patrones relevantes mediante K-Means y PCA.</p>
+            <img src="proyecto1_cluster.jpg" alt="Segmentación de clientes">
+            <a href="https://gist.github.com/sebalemus/7857ada466581575d9201776948b903a" target="_blank">Ver Proyecto en GitHub</a>
+        </div>
+
+    </section>
+
+    <section id="training">
+        <h2>Cursos y Capacitaciones</h2>
+
+        <div class="course">
+            <h3>FA Training, Eagle Product Inspection - Florida, Estados Unidos</h3>
+            <img src="imagefa.jpg" alt="FA Training Eagle Product Inspection">
+        </div>
+
+        <div class="course">
+            <h3>Técnicas de Big Data para Machine Learning - PUC</h3>
+            <img src="cato.jpg" alt="Curso PUC Big Data">
+        </div>
+
+        <div class="course">
+            <h3>Applied Data Science with Python - SimpliLearn</h3>
+            <img src="certificado.jpg" alt="Curso SimpliLearn Data Science">
+        </div>
+
+        <div class="course">
+            <h3>Estructuras de Datos en Python - Universidad Austral</h3>
+            <img src="certificadoaustral.jpg" alt="Curso Universidad Austral Python">
+        </div>
+
+        <div class="course">
+            <h3>SQL para el Análisis de Datos - Desafío LATAM</h3>
+            <img src="cursolatam.jpg" alt="Curso Desafío LATAM SQL">
+        </div>
+
+        <div class="course">
+            <h3>Certificado Profesional de Análisis de Datos - Google</h3>
+            <img src="cursegoogle.jpg" alt="Google Data Analytics Certificate">
         </div>
     </section>
-    <section id="technologies">
-        <h2>Tecnologías y Herramientas</h2>
-        <ul>
-            <!-- Añade tus tecnologías aquí -->
-            <li>Python</li>
-            <li>R Studio</li>
-            <li>SQL(PostgreSQL y MYSQL)</li>
-            <li>Tableau</li>
-            <li>Azure</li>
-            <li>Apache Spark</li>
-            <li>DataBricks</li>
-            <li>Power BI</li>
-        </ul>
-    </section>
+
     <section id="contact">
         <h2>Contacto</h2>
-        <p>Email: <a href="sebalemus24@gmail.com">sebalemus24@gmail.com</a></p>
-        <p>Teléfono: +56 995768635</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/sebastian-lemus-quilapan" target="_blank">Sebastian Lemus</a></p>
-        <a href="CV_Lemus_Sebastian.pdf" download="Sebastian_lemus_CV.pdf">Descargar mi CV</a>
+        <p>Email: <a href="mailto:sebalemus24@gmail.com">sebalemus24@gmail.com</a></p>
+        <p>Teléfono: +56 995768635</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sebastian-lemus-quilapan" target="_blank">Sebastián Lemus</a></p>
+        <p><a href="CV_Lemus_Sebastian.pdf" download="Sebastian_lemus_CV.pdf">Descargar mi CV</a></p>
     </section>
+
     <footer>
-        <p>&copy; 2025 Sebastian Lemus. Todos los derechos reservados.</p>
+        <p>© 2025 Sebastián Lemus | Todos los derechos reservados.</p>
+        <div class="social">
+            <a href="https://github.com/sebalemus" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/sebastian-lemus-quilapan" target="_blank">LinkedIn</a>
+        </div>
     </footer>
+
 </body>
 </html>
