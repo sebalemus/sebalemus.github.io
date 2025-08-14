@@ -82,9 +82,7 @@ a {
 }
 
 #training h2 {
-    color: #34495e;
     grid-column: 1 / -1;
-    text-align: center;
 }
 
 .course {
