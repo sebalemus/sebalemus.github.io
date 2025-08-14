@@ -1,28 +1,28 @@
 # Sebastián Lemus - Portafolio Profesional
 
-Portafolio de Sebastián Lemus, Ingeniero Eléctrico especializado en soporte técnico industrial, análisis de datos y calidad de energía eléctrica. Este sitio web showcases mi experiencia profesional, proyectos destacados y competencias técnicas en el ámbito de la ingeniería eléctrica y análisis de datos.
+Portafolio de Sebastián Lemus, Ingeniero Eléctrico especializado en soporte técnico industrial, análisis de datos y calidad de energía eléctrica. Este sitio web muestra mi experiencia profesional, proyectos destacados y competencias técnicas en el ámbito de la ingeniería eléctrica y análisis de datos.
 
-## Acceso al Portafolio
+## 🌐 Acceso al Portafolio
 
 El portafolio está desplegado en GitHub Pages y es accesible en:
 **[sebalemus.github.io](https://sebalemus.github.io)**
 
-## Contenido del Portafolio
+## 📋 Contenido del Portafolio
 
-### Servicios Profesionales
+### 💼 Servicios Profesionales
 - Soporte técnico especializado en equipos de rayos X
 - Análisis de calidad de energía eléctrica (Fluke)
 - Programación y diseño de sistemas eléctricos con PLC, safe relay y microcontroladores
 - Modelado y manufactura aditiva (Impresión 3D)
 - Consultoría técnica para mantenimiento industrial
 
-### Competencias Técnicas
+### ⚙ Competencias Técnicas
 - **Programación**: Python, MicroPython, R Studio, SQL (PostgreSQL y MySQL)
 - **Hardware**: IoT con Raspberry Pi Pico y ESP32, PLCs (Ladder Logic)
 - **Instrumentación**: Fluke para análisis de calidad de energía
 - **Manufactura**: Impresión 3D y manufactura aditiva
 
-### Proyectos Destacados
+### 📊 Proyectos Destacados
 
 1. **Análisis de Calidad de Energía Eléctrica para Equipos Industriales**
    - Diagnóstico de red eléctrica industrial con Fluke 435 II
@@ -60,7 +60,7 @@ El portafolio está desplegado en GitHub Pages y es accesible en:
 - **LinkedIn**: [Sebastián Lemus](https://www.linkedin.com/in/sebastian-lemus-quilapan)
 - **GitHub**: [sebalemus](https://github.com/sebalemus)
 
-## Tecnologías Utilizadas
+## 💻 Tecnologías Utilizadas
 
 - **Frontend**: HTML5, CSS3
 - **Deployment**: GitHub Pages
